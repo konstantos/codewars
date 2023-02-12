@@ -5,7 +5,11 @@
 
 
 
-
+/**
+ * Функция возвращает кошачьи и собачьи года из человеческих
+ * @param {number} hy человеческие года
+ * @returns {Array} человеческие, кошачьи и собачьи года
+ */
 var humanYearsCatYearsDogYears = function(hy) {
     let cat = 15;
     let dog = 15;
