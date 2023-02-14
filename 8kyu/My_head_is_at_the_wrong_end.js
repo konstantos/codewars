@@ -7,3 +7,6 @@ function fixTheMeerkat(arr) {
     res.push(arr[2], arr[1], arr[0]);
     return res;
 }
+
+//* Примечание: вот способ попроще:
+const fixTheMeerkat = arr => arr.reverse();
