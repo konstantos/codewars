@@ -1,0 +1,1 @@
+let multipleOfIndex = a => a.filter((n, i) => n % i === 0);
